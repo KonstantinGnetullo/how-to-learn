@@ -32,7 +32,7 @@
   z-index: 2;
 }
 
-.header_title {
+.header__title {
   font-size: 102px;
   line-height: 96px;
   font-weight: 600;
@@ -41,7 +41,7 @@
   z-index: 2;
 }
 
-.header_subtitle {
+.header__subtitle {
   position: absolute;
   left: 64px;
   bottom: 30px;
@@ -71,7 +71,7 @@ text-decoration: none;
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
-  top: 64;
+  top: 64px;
   right: 0;
 }
 
@@ -102,17 +102,17 @@ text-decoration: none;
 .two_columns__main-text {
   margin: 0;
   width: 80%;
-  min-width: 784;
+  min-width: 784px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
 }
 
-.main-text__1 {
+.two_columns__paragraph-1 {
   margin: 0;
 }
 
-.main-text__2 {
+.two_columns__paragraph-2 {
   margin: 30px 0;
 }
 
@@ -128,16 +128,15 @@ text-decoration: none;
   align-items: center;
 }
 
-.digits__title {
-  width: 60%;
-  margin: 0 auto 20px;
+.section_title {
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
-  text-align: center;
+  width: 60%;
+  margin: 0 auto 20px;
 }
 
-.digits__subtitle {
+.sectoin_subtitle {
   width: 60%;
   line-height: 34px;
   font-size: 24px;
@@ -175,7 +174,7 @@ text-decoration: none;
   font-weight: normal;
 }
 
-.table__text-2 {
+.table__text:last-of-type {
   margin-top: 20px;
 }
 
@@ -216,6 +215,8 @@ text-decoration: none;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  color:#2f80ed;
+  text-decoration: none;
 }
 
 .feynman__illustration {
@@ -239,7 +240,7 @@ text-decoration: none;
   overflow: hidden;
 }
 
-.title_theme_dark {
+.section_title_theme_dark {
   width: 60%;
   margin: 0 auto 20px;
   line-height: 1.15;
@@ -249,7 +250,7 @@ text-decoration: none;
   z-index: 1;
 }
 
-.subtitle_theme_dark {
+.sectoin_subtitle_theme_dark {
   width: 60%;
   line-height: 34px;
   font-size: 24px;
@@ -260,7 +261,13 @@ text-decoration: none;
 }
 
 .table_theme_dark {
+  margin: 0 auto;
   padding: 0;
+  list-style: none;
+  width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   gap: 0;
 }
 
@@ -335,7 +342,7 @@ text-decoration: none;
   margin: 0 0 20px;
 }
 
-.footer__column_links {
+.footer__column_link {
   display: flex;
   color: white;
   line-height: 30px;
