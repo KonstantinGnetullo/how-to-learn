@@ -6,10 +6,9 @@
   font-size: 18px;
   font-weight: normal;
   margin: 0;
-  transition: text-shadow, .5s ease;
+  transition: 1s ease;
 }
 
 .footer__column-link:hover {
-  opacity: 0.8;
-  text-shadow: 1px 20px 15px #fff;
+  opacity: 0.6;
 }
